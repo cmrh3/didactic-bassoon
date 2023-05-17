@@ -8,18 +8,18 @@ variable "resource_group_name_prefix" {
     description = "Prefix of the resource group that's combined with a random ID so name is unique in your Azure Subscription"
 }
 
-variable "tenant_id" {
+variable "ARM_TENANT_ID" {
     type = string
 }
 
-variable "client_id" {
+variable "ARM_CLIENT_ID" {
     type = string
 }
 
-variable "client_secret" {
+variable "ARM_CLIENT_SECRET" {
     type = string
 }
 
-variable "subscription_id" {
+variable "ARM_SUBSCRIPTION_ID" {
     type = string
 }
