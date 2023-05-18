@@ -1,5 +1,5 @@
 resource "azurerm_virtual_network" "cmrh_dns" {
-  name                = "example-network"
+  name                = "cmrh-dns-network"
   location            = var.cmrh_resource_group_location
   resource_group_name = azurerm_resource_group.rg.name
   address_space       = ["10.0.0.0/16"]
