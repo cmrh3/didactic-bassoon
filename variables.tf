@@ -23,3 +23,19 @@ variable "ARM_CLIENT_SECRET" {
 variable "ARM_SUBSCRIPTION_ID" {
     type = string
 }
+
+variable "ARM_CRSP_TENANT_ID" {
+    type = string
+}
+
+variable "ARM_CRSP_ID" {
+    type = string
+}
+
+variable "ARM_CRSP_SECRET" {
+    type = string
+}
+
+variable "ARM_SUBSCRIPTION_ID" {
+    type = string
+}
