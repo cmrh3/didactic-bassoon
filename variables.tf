@@ -35,7 +35,3 @@ variable "ARM_CRSP_ID" {
 variable "ARM_CRSP_SECRET" {
     type = string
 }
-
-variable "ARM_SUBSCRIPTION_ID" {
-    type = string
-}
