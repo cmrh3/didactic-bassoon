@@ -3,6 +3,7 @@ resource "azurerm_container_registry" "az_cr" {
   resource_group_name = azurerm_resource_group.aks_rg.name
   location            = azurerm_resource_group.aks_rg.location
   sku                 = "Basic"
+  network_rule_set = []
 }
 
 resource "azurerm_role_assignment" "aks_to_acr_role" {
